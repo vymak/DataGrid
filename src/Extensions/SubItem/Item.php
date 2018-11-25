@@ -3,14 +3,15 @@
 namespace Mesour\DataGrid\Extensions;
 
 use Nette\ComponentModel\IComponent;
-use Nette\Object;
 use Nette\Utils\Callback;
 
 /**
  * @author mesour <matous.nemec@mesour.com>
  * @package Mesour DataGrid
  */
-abstract class Item extends Object {
+abstract class Item {
+
+	use \Nette\SmartObject;
 
 	const DEFAULT_COUNT = 20;
 

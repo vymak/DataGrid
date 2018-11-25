@@ -4,7 +4,6 @@ namespace Mesour\DataGrid\Extensions;
 
 use Mesour\DataGrid\Column,
     Mesour\DataGrid\Setting;
-use Nette\Object;
 
 /**
  * @author mesour <matous.nemec@mesour.com>

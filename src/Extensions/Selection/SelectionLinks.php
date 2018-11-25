@@ -2,15 +2,16 @@
 
 namespace Mesour\DataGrid\Extensions;
 
-use Mesour\DataGrid\Column,
-	Nette\Object;
+use Mesour\DataGrid\Column;
 use Nette\ComponentModel\IComponent;
 
 /**
  * @author mesour <matous.nemec@mesour.com>
  * @package Mesour DataGrid
  */
-class SelectionLinks extends Object {
+class SelectionLinks {
+
+	use \Nette\SmartObject;
 
 	private $parent;
 

@@ -3,7 +3,6 @@
 namespace Mesour\DataGrid\Extensions;
 
 use Mesour\DataGrid\Column,
-    \Nette\Object,
     Nette\Localization\ITranslator,
     Nette\Utils\Strings;
 
@@ -11,7 +10,9 @@ use Mesour\DataGrid\Column,
  * @author mesour <matous.nemec@mesour.com>
  * @package Mesour DataGrid
  */
-class SelectionLink extends Object {
+class SelectionLink {
+
+	use \Nette\SmartObject;
 
 	private $name;
 
